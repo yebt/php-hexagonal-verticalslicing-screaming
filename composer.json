@@ -23,5 +23,12 @@
     "require": {
         "php": "^8.0"
     },
-    "require-dev": {}
+    "require-dev": {
+        "pestphp/pest": "^4.0"
+    },
+    "config": {
+        "allow-plugins": {
+            "pestphp/pest-plugin": true
+        }
+    }
 }
