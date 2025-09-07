@@ -1,0 +1,27 @@
+{
+    "name": "yebt/php-hexagonal-verticalslicing-screaming",
+    "description": "Project to try work with hexagonal architecture",
+    "version": "0.1.0",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Test\\": "test"
+        }
+    },
+    "authors": [
+        {
+            "name": "Yahir",
+            "email": "yahir.eduardo.bravo@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^8.0"
+    },
+    "require-dev": {}
+}
