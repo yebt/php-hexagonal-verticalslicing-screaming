@@ -9,6 +9,6 @@ use DateTimeImmutable;
 interface DomainEvent
 {
     public function aggregateId(): string;
-    public function ocurredOn(): DateTimeImmutable;
+    public function occurredOn(): DateTimeImmutable;
     public static function eventName(): string;
 }
